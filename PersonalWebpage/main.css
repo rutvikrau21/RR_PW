@@ -765,6 +765,7 @@
    color: #FFFFFF;
  }
  
+ 
  .button.button-primary:hover,
  a.button.button-primary:hover,
  button.button-primary:hover,
@@ -2671,10 +2672,16 @@ ul#nav li.current a { color: #F06000; }
  .contact-info .cinfo {
    margin-bottom: 4.2rem;
  }
- .contact-info .tap :hover {
-   color: #F06000;
+ .tap {
+   color: black;
  }
- 
+ .contact-info .tap :hover {
+   color: #78b3e0;
+ }
+ .contact-info .linked :hover {
+  color: #78b3e0;
+}
+
  /* contact form */
  #contact form {
    margin-top: 0;
