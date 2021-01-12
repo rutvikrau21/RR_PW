@@ -2122,24 +2122,52 @@ ul#nav li.current a { color: #F06000; }
  #investment .intro {
    color: #F06000;
  }
-
  .stocks img {
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-  margin: .9rem 0 0 0;
+  margin: 5rem 0 0 0;
   float: none;
 }
-.slack {  
-
+.dropdown-item {
+  color:white;
+  width: 100px;
+  display: none;
+  margin-bottom: 10px;
 }
-.delta {
+.slack:hover .dropdown-item {
+  display: block;
+  position: relative;
+  font-size: 22px;
+  top:30px;
+  width: initial;
 }
-.lemonade {
+.delta:hover .dropdown-item {
+  display: block;
+  position: relative;
+  font-size: 22px;
+  top: 45px;
+  width: initial;
 }
-.vodafone {
+.lemonade:hover .dropdown-item {
+  display: block;
+  position: relative;
+  font-size: 22px;
+  top: 45px;
+  width: initial;
 }
- 
+.vodafone:hover .dropdown-item {
+  display: block;
+  position: relative;
+  font-size: 22px;
+  top: 45px;
+  width: initial;
+}
+ .thesis {
+   margin:10px;
+   padding: 40px;
+   color: #F06000;
+ }
  /* -------------------------------------------------------------------
   * masonry entries - (_layout.css)
   * ------------------------------------------------------------------- */
@@ -3119,4 +3147,8 @@ ul#nav li.current a { color: #F06000; }
   }
   #projects h2 {
     color:#F06000;
+  }
+  .todolist {
+    color: #F06000;
+
   }
