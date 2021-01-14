@@ -2117,7 +2117,7 @@ ul#nav li.current a { color: #F06000; }
  }
  #investment .intro-wrap {
    padding: 15rem 0 21rem;
-   background: #302e2e;
+   background:lightblue;
  }
  #investment .intro {
    color: #F06000;
@@ -2163,10 +2163,9 @@ ul#nav li.current a { color: #F06000; }
   top: 45px;
   width: initial;
 }
- .thesis {
+ #investment .thesis{
    margin:10px;
    padding: 40px;
-   color: #F06000;
  }
  /* -------------------------------------------------------------------
   * masonry entries - (_layout.css)
