@@ -2125,7 +2125,7 @@ ul#nav li.current a { color: #F06000; }
  .stocks img {
   height: 15rem;
   width: 15rem;
-  border-radius: 50%;
+  border-radius: 20%;
   margin: 5rem 0 0 0;
   float: none;
 }
@@ -2156,7 +2156,7 @@ ul#nav li.current a { color: #F06000; }
   top: 45px;
   width: initial;
 }
-.vodafone:hover .dropdown-item {
+.salesforce:hover .dropdown-item {
   display: block;
   position: relative;
   font-size: 22px;
@@ -3154,3 +3154,27 @@ ul#nav li.current a { color: #F06000; }
     font-size: x-large;
     color: #F06000;
   }
+  .rayo {
+      height: 10rem;
+      width: 10rem;
+      border-radius: 90%;
+      margin: .9rem 0 0 0;
+      padding: 20px 20px 20px 20px;
+      
+  }
+  .blog {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 90%;
+    margin: 0.9rem 0 0 0;
+    padding: 20px 20px 20px 20px;
+}
+
+.blockchain {
+  height: 10rem;
+    width: 10rem;
+    border-radius: 90%;
+    margin: 0.9rem 0 0 0;
+    padding: 20px 20px 20px 20px;
+}
+
